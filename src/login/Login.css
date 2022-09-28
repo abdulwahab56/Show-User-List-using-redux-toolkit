@@ -1,0 +1,45 @@
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: white;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.25);
+  width: 50rem;
+  padding: 6rem 2rem;
+}
+.inpur-field {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: inherit;
+}
+.input-email,
+.input-pwd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  width: max-content;
+}
+.sub-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.input-email {
+  margin-left: 3.5rem;
+}
+.login-tiitle {
+  font-size: 3rem;
+}

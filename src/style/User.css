@@ -1,0 +1,144 @@
+.info {
+  width: 90%;
+  padding-left: 5rem;
+}
+.user-info {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+.user-info td,
+.user-info th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.user-info th {
+  font-size: 1.8rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  text-align: left;
+  background-color: #04aa46;
+  color: white;
+  text-transform: uppercase;
+}
+.user-info td {
+  font-size: 1.6rem;
+}
+.user-info tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user-info tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+.user-avatar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.user-img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.icon-style {
+  width: 24px;
+  height: 24px;
+}
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.paginationBttns a {
+  padding: 5px 13px;
+  background: #212245;
+  color: #fff !important;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.paginationBttns a:hover {
+  background: #df2020;
+}
+.form-add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 0 10rem;
+}
+.btn {
+  padding: 1.3rem 4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: inherit;
+
+  background: #8e0b0b;
+  border-radius: 10rem;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  transition: all 0.2s;
+}
+.btn:hover {
+  background: #36454f;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 0 0.8rem 0 0.8rem;
+  border-radius: 12px;
+}
+.search-form input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.search-form input::placeholder {
+  font-size: 1.5rem;
+}
+.user-icon {
+  width: 28px;
+  height: 28px;
+}
+.loading {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40rem;
+}
+.upload--update {
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+.user-header {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 3rem;
+}
